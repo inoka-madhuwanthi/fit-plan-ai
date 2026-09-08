@@ -1,75 +1,106 @@
-# React + TypeScript + Vite
+# 🏋️ FitPlan AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> AI-powered fitness planner that generates personalized workout plans based on your goals, preferences, and fitness level.
 
-Currently, two official plugins are available:
+![FitPlan AI Preview](./public/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📖 About The Project
 
-## React Compiler
+FitPlan AI is a full-stack fitness planning application I built as a **learning-focused project**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The main goal of this project was to practice building a complete application from frontend to backend, connecting it with a PostgreSQL database, implementing authentication, and integrating AI to generate personalized workout plans.
 
-## Expanding the ESLint configuration
+Rather than focusing only on the UI, this project helped me understand how different parts of a full-stack application work together.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Frontend
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- React
+- TypeScript
+- Vite
+- React Router DOM
+- Tailwind CSS
+- shadcn/ui
+- Lucide React
 
-```
+### Backend
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+- Node.js
+- Express.js
+- TypeScript
+- REST API
+- OpenAI SDK
+- OpenRouter
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Database & Authentication
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- PostgreSQL
+- Prisma ORM
+- Neon
+- Neon Auth
 
-```
+---
+
+## 🎯 What I Learned
+
+This project was mainly focused on learning and improving my full-stack development skills.
+
+### ⚛️ React & TypeScript
+
+- Building reusable React components
+- Managing application state
+- Working with React Context
+- Creating forms and handling user input
+- Using TypeScript types and interfaces
+- Working with React Router
+- Protecting routes based on authentication state
+
+### 🎨 Frontend Development
+
+- Building responsive layouts with Tailwind CSS
+- Using reusable UI components
+- Working with shadcn/ui
+- Creating modern dashboard and form interfaces
+- Managing loading and error states
+- Connecting a React frontend with a backend API
+
+### 🖥️ Backend Development
+
+- Creating an Express.js server
+- Structuring a backend project
+- Creating REST API routes
+- Using middleware
+- Handling requests and responses
+- Working with environment variables
+- Connecting frontend and backend applications
+
+### 🗄️ Database & Prisma
+
+- Setting up PostgreSQL
+- Using Neon as a hosted PostgreSQL database
+- Understanding Prisma ORM
+- Creating database schemas
+- Running Prisma migrations
+- Querying and updating database records
+- Connecting backend services with a database
+
+### 🔐 Authentication
+
+- Understanding authentication flow
+- Integrating Neon Auth
+- Working with authenticated users
+- Protecting application routes
+- Handling authentication state on the frontend
+
+### 🤖 AI Integration
+
+- Integrating an AI API into a full-stack application
+- Using the OpenAI SDK with OpenRouter
+- Creating prompts for personalized workout plans
+- Sending user information to an AI model
+- Working with structured AI responses
+- Turning AI-generated data into application content
+
