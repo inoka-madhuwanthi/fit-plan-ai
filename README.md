@@ -4,7 +4,7 @@
 
 ![FitPlan AI Preview](./public/preview.png)
 
-## 📖 About The Project
+## About The Project
 
 FitPlan AI is a full-stack fitness planning application I built as a **learning-focused project**.
 
@@ -16,91 +16,35 @@ Rather than focusing only on the UI, this project helped me understand how diffe
 
 ## 🛠️ Tech Stack
 
-### Frontend
-
-- React
-- TypeScript
-- Vite
-- React Router DOM
-- Tailwind CSS
-- shadcn/ui
-- Lucide React
-
-### Backend
-
-- Node.js
-- Express.js
-- TypeScript
-- REST API
-- OpenAI SDK
-- OpenRouter
-
-### Database & Authentication
-
-- PostgreSQL
-- Prisma ORM
-- Neon
-- Neon Auth
+- Frontend: React, Vite
+- Language: TypeScript
+- Styling: Tailwind CSS
+- UI: shadcn/ui
+- Backend: Node.js, Express.js
+- API: REST API
+- Authentication: Neon Auth
+- Database: Neon Postgres
+- ORM: Prisma
+- AI: OpenAI SDK, OpenRouter
+- Icons: Lucide React
 
 ---
 
-## 🎯 What I Learned
+### What I Learned
 
-This project was mainly focused on learning and improving my full-stack development skills.
+- Building reusable React components with TypeScript
 
-### ⚛️ React & TypeScript
+- Managing state, forms, and authentication
 
-- Building reusable React components
-- Managing application state
-- Working with React Context
-- Creating forms and handling user input
-- Using TypeScript types and interfaces
-- Working with React Router
-- Protecting routes based on authentication state
+- Creating responsive UIs with Tailwind CSS
 
-### 🎨 Frontend Development
+- Building REST APIs with Express.js
 
-- Building responsive layouts with Tailwind CSS
-- Using reusable UI components
-- Working with shadcn/ui
-- Creating modern dashboard and form interfaces
-- Managing loading and error states
-- Connecting a React frontend with a backend API
+- Working with PostgreSQL and Prisma ORM
 
-### 🖥️ Backend Development
+- Implementing authentication and protected routes
 
-- Creating an Express.js server
-- Structuring a backend project
-- Creating REST API routes
-- Using middleware
-- Handling requests and responses
-- Working with environment variables
-- Connecting frontend and backend applications
+- Integrating AI APIs with OpenRouter
 
-### 🗄️ Database & Prisma
-
-- Setting up PostgreSQL
-- Using Neon as a hosted PostgreSQL database
-- Understanding Prisma ORM
-- Creating database schemas
-- Running Prisma migrations
-- Querying and updating database records
-- Connecting backend services with a database
-
-### 🔐 Authentication
-
-- Understanding authentication flow
-- Integrating Neon Auth
-- Working with authenticated users
-- Protecting application routes
-- Handling authentication state on the frontend
-
-### 🤖 AI Integration
-
-- Integrating an AI API into a full-stack application
-- Using the OpenAI SDK with OpenRouter
-- Creating prompts for personalized workout plans
-- Sending user information to an AI model
-- Working with structured AI responses
-- Turning AI-generated data into application content
+- Connecting frontend, backend, database, and AI services
 
